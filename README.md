@@ -1,6 +1,6 @@
 # 毒鸡汤 Node.js Serverless 版
 
-源项目 https://github.com/egotong/nows 真是简洁又有趣，只是用的 php+mysql 部署麻烦。
+毒鸡汤网页 www.nows.fun 真是简洁又有趣，只是用的 php+mysql 部署有些麻烦。
 
 我用 Node.js 读 txt 代替，放到阿里云函数计算，无需购买服务器，按访问量计费。
 
