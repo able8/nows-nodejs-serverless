@@ -16,3 +16,12 @@ module.exports.handler = function(req, res, context) {
         });
     });
 };
+const fs = require('fs');
+
+module.exports.handler = function(req, res, context) {
+    fs.readFile('index.html', 'utf8', function(err, html) {
+        res.setStatusCode(200);
+        res.setHeader('content-type', 'text/html');
+        res.send(html);
+    });
+};
