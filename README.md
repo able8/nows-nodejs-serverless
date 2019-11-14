@@ -20,3 +20,12 @@
 可以把数据直接放网页里，用js随机读取，这样连node.js环境都不用了，
 
 直接返回一个html网页，js读取数据，也不用刷新网页，速度更快了，体验更好。
+
+
+----
+
+## 还可以 Serverless 也不用
+
+直接使用阿里云OSS托管index.html页面也行。
+
+OSS配置静态网站托管 https://help.aliyun.com/document_detail/31872.html
